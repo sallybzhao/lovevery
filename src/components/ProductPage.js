@@ -23,8 +23,8 @@ export default function ProductPage({ product }) {
       : (monthAge > 12) 
         ? 5
         : Math.ceil(monthAge/2) - 1
-    console.log(monthAge, index)
-    setIsPlaceholder(false)
+
+        setIsPlaceholder(false)
     setMyProduct(productData[index])
   }
 
