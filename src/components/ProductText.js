@@ -36,11 +36,11 @@ export default function ProductText({ kit, onSubmit, isPlaceholder }) {
       <img src={TruckIcon} alt='truck-icon' className='truck-icon'/>
       <span className='price'> $80/kit, only available in the Play Kit subscription </span>
       <form className='user-input-form' onSubmit={handleSubmit}>
-        <div className='form-field'>
+        <div className='form-field name'>
           <label> Your child's name (optional) </label>
           <input type='text' name='name' />
         </div>
-        <div className='form-field'>
+        <div className='form-field date'>
           <label className='birth-label'> Birth date/Due date </label>
           <input type='date' name='date' />
         </div>

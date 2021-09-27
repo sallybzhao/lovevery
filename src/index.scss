@@ -91,10 +91,17 @@ body,
     margin-top: 12px;
 
     .form-field {
-      width: 30%;
       display: inline-block;
       vertical-align: top;
       margin-right: 32px;
+
+      &.name {
+        width: 35%;
+      }
+
+      &.date {
+        width: 25%;
+      }
     }
   }
 
@@ -167,7 +174,7 @@ body,
 
   .slick-slide {
     img {
-      max-height: 550px;
+      height: 550px;
       object-fit: cover;
     }
   }
